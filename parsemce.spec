@@ -1,4 +1,5 @@
-Summary:	Linux Machine check exception handler parser
+Summary:	Linux Machine Check Exception handler parser
+Summary(pl):	Parser dla linuksowej obs³ugi wyj±tków Machine Check Exception
 Name:		parsemce
 Version:	0.0.8
 Release:	1
@@ -9,7 +10,10 @@ Source0:	http://www.kernel.org/pub/linux/kernel/people/davej/tools/%{name}.c
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Linux Machine check exception handler parser.
+Linux Machine Check Exception handler parser.
+
+%description -l pl
+Parser dla linuksowej obs³ugi wyj±tków MCE (Machine Check Exception).
 
 %prep
 %setup -q -T -c
