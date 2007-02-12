@@ -1,5 +1,5 @@
 Summary:	Linux Machine Check Exception handler parser
-Summary(pl):	Parser dla linuksowej obs³ugi wyj±tków Machine Check Exception
+Summary(pl.UTF-8):   Parser dla linuksowej obsÅ‚ugi wyjÄ…tkÃ³w Machine Check Exception
 Name:		parsemce
 Version:	0.0.8
 Release:	1
@@ -12,8 +12,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Linux Machine Check Exception handler parser.
 
-%description -l pl
-Parser dla linuksowej obs³ugi wyj±tków MCE (Machine Check Exception).
+%description -l pl.UTF-8
+Parser dla linuksowej obsÅ‚ugi wyjÄ…tkÃ³w MCE (Machine Check Exception).
 
 %prep
 %setup -q -T -c
