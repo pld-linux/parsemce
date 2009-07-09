@@ -1,12 +1,12 @@
 Summary:	Linux Machine Check Exception handler parser
 Summary(pl.UTF-8):	Parser dla linuksowej obsługi wyjątków Machine Check Exception
 Name:		parsemce
-Version:	0.0.8
+Version:	0.0.9
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://www.kernel.org/pub/linux/kernel/people/davej/tools/%{name}.c
-# Source0-md5:	c8752cc63c28779be52001be1fa94a19
+Source0:	http://www.codemonkey.org.uk/cruft/%{name}.c
+# Source0-md5:	dc39d5001009233d15643df768015997
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
